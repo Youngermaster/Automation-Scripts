@@ -12,6 +12,8 @@ elif [ "$message" == "little" ]; then
     echo -e "🔥 little changes added"
 elif [ "$message" == "new" ]; then
     echo -e "⚡ new feature added"
+elif [ "$message" == "finish" ]; then
+    echo -e "👍 project finished"
 else
     echo -e "${RED}$message not found ${NC}👋"
 fi
