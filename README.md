@@ -1,6 +1,6 @@
 # Automatization-scripts
 
-This repo contains and will has some scripts that I use for make my development faster on my Ubuntu machine
+This repo contains and will has some scripts that I use for make my development faster on my machines (Arch and Ubuntu 20.04).
 
 To use it globally I add the container folder to `~/.bashrc`.
 
