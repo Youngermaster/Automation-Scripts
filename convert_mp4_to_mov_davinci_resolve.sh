@@ -8,5 +8,4 @@ fi
 input_file="$1"
 output_file="$2"
 
-ffmpeg -i "$input_file" -vcodec dnxhd -acodec pcm_s16le -s 1920x1080 -r 30000/1001 -b:v 36M -pix_fmt yuv422p -f mov "$output_file"
-
+ffmpeg -i "$input_file" -vcodec mjpeg -q:v 2 -acodec pcm_s16be -q:a 0 -f mov "$output_file"
